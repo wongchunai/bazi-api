@@ -1,0 +1,14 @@
+{
+  "name": "bazi-api",
+  "version": "1.0.0",
+  "description": "免費八字排盤API服務",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "chinese-lunar": "^2.1.0",
+    "solar-lunar": "^2.1.2"
+  }
+}
