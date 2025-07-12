@@ -1,0 +1,15 @@
+{
+  "name": "bazi-api",
+  "version": "1.0.0",
+  "description": "一個能準確排出四柱八字的 API，支援節氣換年、真太陽時與地理位置修正",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "node-fetch": "^2.6.7",
+    "lunar-typescript": "^1.5.0"
+  }
+}
